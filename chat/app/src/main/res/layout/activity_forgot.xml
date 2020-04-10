@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ForgotActivity"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/FAheader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/FAheading"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textSize="25sp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="40dp"/>
+
+    <EditText
+        android:id="@+id/FAemail_id"
+        android:layout_width="285dp"
+        android:layout_height="51dp"
+        android:ems="10"
+        android:hint="@string/Email_ID"
+        android:inputType="textEmailAddress"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/FAheader"
+        android:layout_marginTop="180dp"/>
+
+    <Button
+        android:id="@+id/FAresetPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ResetPassword"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/FAemail_id"
+        android:layout_marginTop="80dp"
+        />
+</RelativeLayout>

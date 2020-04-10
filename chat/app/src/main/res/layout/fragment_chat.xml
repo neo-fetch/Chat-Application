@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.ChatFragment"
+    android:padding="8dp">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_viewForSeeingChats"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="8dp"/>
+
+    <TextView
+        android:id="@+id/EmptyChats"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+</RelativeLayout>

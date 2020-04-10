@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MessageActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/Layout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/MeAprofilePic"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/blank_profilepic" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/MeA_displayOnline"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_alignTop="@+id/MeAprofilePic"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="28dp"
+                android:src="@drawable/blank_profilepic"
+                app:civ_border_color="#05DF29"
+                app:civ_border_width="10dp" />
+
+            <TextView
+                android:id="@+id/MeAUsername"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="22dp"
+                android:layout_toEndOf="@+id/MeAprofilePic"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/Layout1"
+        android:layout_above="@+id/MeAlayoutformessaging"
+        android:id="@+id/recycler_viewForMessaging"
+        android:padding="5dp"/>
+
+    <RelativeLayout
+        android:id="@+id/MeAlayoutformessaging"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:background="#FFFFFF"
+        android:layout_alignParentBottom="true">
+
+        <EditText
+            android:id="@+id/MeAmessage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Type a Message"
+            android:layout_toLeftOf="@+id/MeAsendMessage"
+            android:inputType="textCapSentences|text"
+            android:layout_centerVertical="true"/>
+
+        <ImageButton
+            android:id="@+id/MeAsendMessage"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/ic_sendmessage"/>
+
+
+    </RelativeLayout>
+
+</RelativeLayout>
