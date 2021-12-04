@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UserProfileActivity">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/UPAprofilePic"
+        android:layout_width="150sp"
+        android:layout_height="150sp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:src="@drawable/blank_profilepic"/>
+
+    <TextView
+        android:id="@+id/UPAname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textSize="25sp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/UPAprofilePic"
+        android:layout_marginTop="75dp" />
+
+    <Button
+        android:id="@+id/UPAstartChatting"
+        android:layout_width="224dp"
+        android:layout_height="56dp"
+        android:text="@string/Start_chatting_button"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/UPAname"
+        android:layout_marginTop="120dp" />
+
+</RelativeLayout>

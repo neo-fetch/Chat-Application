@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/MAwelcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Welcome"
+        android:textSize="30sp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="100dp"/>
+
+    <Button
+        android:id="@+id/MAregister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Register"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/MAwelcome"
+        android:layout_marginTop="150dp"/>
+
+    <Button
+        android:id="@+id/MAlogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Login"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/MAregister"
+        android:layout_marginTop="10dp"/>
+
+</RelativeLayout>

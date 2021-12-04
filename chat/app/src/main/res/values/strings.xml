@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">Chatting</string>
+    <string name="title_activity_chat">ChatActivity</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="navigation_drawer_open">Drawer Open</string>
+    <string name="navigation_drawer_close">Drawer Closed</string>
+
+    <string name="Welcome">Welcome!</string>
+    <string name="Register">New User? Register</string>
+    <string name="Login">Old User? Login</string>
+
+    <string name="LogMeIn">Login</string>
+    <string name="ForgotPassword"><u>Forgot password? Click here</u></string>
+
+    <string name="FAheading">Enter your registered Email-ID</string>
+    <string name="ResetPassword">Reset Password</string>
+
+    <string name="ShowAlert">Please fill all the details correctly</string>
+    <string name="Name">Name</string>
+    <string name="Email_ID">Email-ID</string>
+    <string name="Password">Password</string>
+    <string name="PasswordAgain">Enter Password Again</string>
+    <string name="RegisterMe">Register</string>
+
+    <string name="menu_profile">Profile</string>
+    <string name="menu_contact_us">Contact us</string>
+    <string name="menu_settings">Settings</string>
+    <string name="Start_chatting_button">Start Chatting</string>
+
+    <string name="ChangePassword">Change Password</string>
+    <string name="Logout">Logout</string>
+    <string name="UpdateProfilePic">Update profile picture</string>
+
+    <string name="ChangeYourPassword">Change your password</string>
+    <string name="CurrentPassword">Current password</string>
+    <string name="NewPassword">New password</string>
+    <string name="NewPasswordAgain">New password again</string>
+
+    <string name="MyApp">App by Srikar</string>
+
+    <string name="AppVersion">App Version : </string>
+    <string name="CUAheader">Work in progress, will be ready soon</string>
+
+    <string name="RemoveProfilePic">Remove profile pic</string>
+
+    <string name="SelectProfilePic">Select your new Profile picture</string>
+
+    <string name="SAswitchText">Switch for dark theme</string>
+
+
+</resources>
